@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "Vérificateur de contraste pour les couleurs de texte et d'arrière-plan",
     siteName: "HorizonContrast",
     images: [{
-      url: "/og-image.png",
+      url: "../public/og-image.png",
       width: 1200,
       height: 630,
       alt: "HorizonKey Preview"
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "HorizonKey | Password Generator",
     description: "Générateur de mots de passe sécurisés par Perspective Horizon",
-    images: ["/og-image.png"],
+    images: ["../public/og-image.png"],
   }
 };
 
