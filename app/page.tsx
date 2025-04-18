@@ -805,119 +805,15 @@ export default function ContrastCalculator() {
           </div>
         </section>
         
-        {/* Section SEO avec statistiques et études de cas */}
-        <section className="bg-white dark:bg-slate-900 rounded-lg shadow-lg p-8">
-          <h2 className="text-2xl font-bold mb-6 text-slate-800 dark:text-slate-100">Impact du contraste sur l'accessibilité : chiffres et études</h2>
-          
-          <div className="prose dark:prose-invert max-w-none">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-slate-50 dark:bg-slate-800 p-5 rounded-lg text-center">
-                <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">1,3 milliard</div>
-                <p>de personnes vivent avec une forme de déficience visuelle dans le monde</p>
-              </div>
-              
-              <div className="bg-slate-50 dark:bg-slate-800 p-5 rounded-lg text-center">
-                <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">86,3%</div>
-                <p>des sites web ont des problèmes de contraste insuffisant selon WebAIM</p>
-              </div>
-              
-              <div className="bg-slate-50 dark:bg-slate-800 p-5 rounded-lg text-center">
-                <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">50%</div>
-                <p>d'augmentation du taux de conversion moyen avec un contraste optimisé</p>
-              </div>
-            </div>
-            
-            <h3 className="text-xl font-semibold mb-4">Étude de cas : Impact du contraste sur l'engagement</h3>
-            
-            <p>Une étude menée par Nielsen Norman Group a démontré que l'amélioration du contraste texte/fond peut :</p>
-            
-            <ul className="list-disc pl-6 space-y-2 my-4">
-              <li>Réduire le temps nécessaire pour accomplir des tâches de 20%</li>
-              <li>Diminuer le taux d'erreur de 25% lors de la saisie de formulaires</li>
-              <li>Augmenter la satisfaction utilisateur de 22%</li>
-            </ul>
-            
-            <div className="my-6 p-5 bg-slate-50 dark:bg-slate-800 rounded-lg">
-              <h4 className="font-semibold mb-2">Exemple concret : Refonte d'un site e-commerce</h4>
-              <p>Une plateforme de commerce en ligne a optimisé le contraste de ses boutons d'action et de son texte de description produit, obtenant :</p>
-              <ul className="list-disc pl-6 space-y-1 mt-2">
-                <li>+18% d'augmentation du taux de clics sur les boutons "Ajouter au panier"</li>
-                <li>-12% de réduction du taux d'abandon de panier</li>
-                <li>+15% d'amélioration du temps moyen passé sur les pages produit</li>
-              </ul>
-              <p className="mt-2 text-sm text-slate-600 dark:text-slate-400"><em>Source : Baymard Institute, 2023</em></p>
-            </div>
-            
-            <h3 className="text-xl font-semibold mb-4">Impact économique et juridique</h3>
-            
-            <p>Investir dans l'accessibilité n'est pas seulement une question d'éthique, mais aussi de stratégie commerciale judicieuse :</p>
-            
-            <ul className="list-disc pl-6 space-y-2 my-4">
-              <li>Le marché mondial des personnes en situation de handicap représente 1,85 billion de dollars de pouvoir d'achat annuel</li>
-              <li>Aux États-Unis, plus de 2 300 procès liés à l'accessibilité numérique ont été déposés en 2023, dont plusieurs concernaient spécifiquement des problèmes de contraste</li>
-              <li>En France, la loi pour une République numérique impose l'accessibilité aux sites publics et progressivement aux grandes entreprises privées</li>
-            </ul>
-            
-            <div className="p-4 bg-amber-50 border-l-4 border-amber-500 dark:bg-amber-900/30 dark:border-amber-400 my-6">
-              <h4 className="font-medium">À retenir</h4>
-              <p className="mt-1">L'optimisation du contraste n'est pas seulement une obligation légale ou une bonne pratique d'accessibilité — c'est un investissement concret qui améliore l'expérience de tous les utilisateurs et peut avoir un impact mesurable sur vos indicateurs de performance.</p>
-            </div>
-          </div>
-        </section>
+       
         
-        {/* Section Contact/CTA final */}
-        <section className="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-lg shadow-lg p-8 text-white">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-4">Optimisez l'accessibilité de votre site web dès aujourd'hui</h2>
-            <p className="text-lg mb-8">Notre calculateur de contraste est l'outil idéal pour garantir que votre site respecte les normes d'accessibilité et offre une expérience utilisateur optimale à tous vos visiteurs.</p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50">
-                Consultez nos services d'audit d'accessibilité
-              </Button>
-              
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
-                Partagez cet outil
-              </Button>
-            </div>
-            
-            <p className="mt-6 text-blue-100">Des questions sur l'accessibilité web ? Contactez nos experts.</p>
-          </div>
-        </section>
+        
+      
+        
         
         {/* Section footer avec mots-clés SEO et breadcrumbs */}
         <footer className="mt-12 text-sm text-slate-500 dark:text-slate-400">
-          <div className="mb-4">
-            <nav aria-label="Fil d'Ariane">
-              <ol className="flex flex-wrap gap-2">
-                <li>Accueil</li>
-                <li className="flex items-center">
-                  <span className="mx-2">/</span>
-                  <span>Outils</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="mx-2">/</span>
-                  <span className="font-medium text-slate-700 dark:text-slate-300">Calculateur de Contraste</span>
-                </li>
-              </ol>
-            </nav>
-          </div>
           
-          <div className="mt-6">
-            <h2 className="sr-only">Mots-clés liés à l'accessibilité web</h2>
-            <div className="flex flex-wrap gap-2">
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">accessibilité web</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">contraste WCAG</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">ratio de contraste</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">design accessible</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">daltonisme</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">normes WCAG 2.1</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">vérificateur de contraste</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">accessibilité numérique</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">lisibilité web</span>
-              <span className="bg-slate-100 dark:bg-slate-800 px-2 py-1 rounded text-xs">conformité ADA</span>
-            </div>
-          </div>
           
           <p className="mt-6 text-center">© 2025 Calculateur de Contraste. Tous droits réservés.</p>
         </footer>
