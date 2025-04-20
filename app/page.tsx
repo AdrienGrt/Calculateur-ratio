@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Slider } from "@/components/ui/slider"
+import { Analytics } from "@vercel/analytics/react"
 import { Button } from "@/components/ui/button"
 import { ClipboardCopy, RefreshCw, Eye, EyeOff, Palette, ChevronDown, ChevronUp, PlusCircle, MinusCircle } from "lucide-react"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
@@ -196,7 +197,9 @@ export default function ContrastCalculator() {
   }
 
   return (
+    
     <div className="container mx-auto pb-16">
+      <Analytics />
       <Card className="max-w-4xl mx-auto shadow-lg mb-12 mt-10">
         <CardHeader className="bg-gradient-to-r from-slate-100 to-slate-200 dark:from-slate-900 dark:to-slate-800  ">
           <div className="flex justify-between items-center">
