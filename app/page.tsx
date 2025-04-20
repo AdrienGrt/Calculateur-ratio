@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button"
 import { ClipboardCopy, RefreshCw, Eye, EyeOff, Palette, ChevronDown, ChevronUp, PlusCircle, MinusCircle } from "lucide-react"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { NotFound } from "@/components/NotFound"
 
 export default function ContrastCalculator() {
   const [foreground, setForeground] = useState("#000000")
@@ -821,3 +822,6 @@ export default function ContrastCalculator() {
     </div>
   )
 }
+
+
+
